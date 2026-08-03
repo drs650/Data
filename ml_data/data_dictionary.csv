@@ -1,0 +1,16 @@
+﻿file,column,description,unit
+cafe_sales.csv,temperature_c,평균 기온,섭씨
+cafe_sales.csv,promotion,프로모션 진행 여부,0/1
+cafe_sales.csv,weekend,주말 여부,0/1
+cafe_sales.csv,foot_traffic,하루 방문자 수,명
+cafe_sales.csv,sales_10k_krw,하루 매출,만원
+telecom_churn.csv,usage_minutes,월 이용 시간,분
+telecom_churn.csv,complaints,최근 불만 접수 횟수,회
+telecom_churn.csv,contract_months,현재 계약 지속 기간,개월
+telecom_churn.csv,monthly_fee,월 요금,가상 금액
+telecom_churn.csv,contract_type,계약 유형,범주
+telecom_churn.csv,region,지역,범주
+telecom_churn.csv,churn,이탈 여부,0/1
+customer_segments.csv,annual_spend_10k,연간 구매액,만원
+customer_segments.csv,visits_per_month,월 방문 횟수,회
+customer_segments.csv,online_ratio,온라인 구매 비율,0~1
