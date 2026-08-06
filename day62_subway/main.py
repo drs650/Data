@@ -26,11 +26,11 @@ st.set_page_config(
 # st.Page(파일경로, title=사이드바 표시 이름, icon=아이콘, default=True)
 #  - 파일 경로는 상대 경로, main.py 기준
 #  - default=True인 페이지가 앱을 처음 열었을 때 보이는 화면이 된다.
-home_page = st.Page('pages_src/home.py', title='홈', icon='', default=True)
-explore_page = st.Page('pages_src/explore.py', title='역별 탐색' , icon='')
-search_page = st.Page('pages_src/search.py', title='검색', icon='')
-trend_page = st.Page('pages_src/trend.py', title='기간,시간대 추이', icon='')
-about_page = st.Page('pages_src/about.py', title='소개', icon='')
+home_page = st.Page('pages_src/home.py', title='홈', default=True)
+explore_page = st.Page('pages_src/explore.py', title='역별 탐색' )
+search_page = st.Page('pages_src/search.py', title='검색')
+trend_page = st.Page('pages_src/trend.py', title='기간,시간대 추이')
+about_page = st.Page('pages_src/about.py', title='소개')
 
 # --- 사이드바에 페이지 연결 : 각 섹션 제목이 함께 표시된다, 딕셔너리 형태로 ---
 pg = st.navigation({

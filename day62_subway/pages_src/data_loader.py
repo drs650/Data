@@ -19,10 +19,10 @@ def load_subway(path: str='./input/subway_long.csv') -> pd.DataFrame:
 
     """
     dtype_map = {  # 문자열로 반복되는 컬럼은 category 타입으로 읽어 메모리를 절약한다.
-        '역명' = 'category',
-        '승하차' = 'category',
-        '시간대컬럼' = 'category',
-        '요일코드' = 'category',
+        '역명' : 'category',
+        '승하차' : 'category',
+        '시간대컬럼' : 'category',
+        '요일코드' : 'category',
     }
     df = pd.read_csv(path, dtype=dtype_map)
 
