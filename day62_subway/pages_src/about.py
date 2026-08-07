@@ -20,7 +20,7 @@ else:
     st.write('즐겨찾는 역: 아직 없습니다. "역별 탐색"화면에서 추가해보세요')
 
 if 'last_viewed_ride_type' in st.session_state:
-    st.write('마지막으로 본 추이 구분:', st.session_state.lase_viewed_ride_type)
+    st.write('마지막으로 본 추이 구분:', st.session_state.last_viewed_ride_type)
 else:
     st.write('아직 "기간, 시간대 추이" 화면을 방문하지 않았습니다.')
 
